@@ -12,7 +12,7 @@
     <style>
         :root {
             --bg1: #d6e0ff;
-            --bg2: #ffeef6;
+            --bg2: #c1d0fa;
             --card: #ffffffcc;
             --yes: #3ba0ff;
             --yesHover: #1f80ff;
@@ -44,7 +44,7 @@
         }
 
         .card {
-            width: min(720px, 92vw);
+            width: min(1100px, 92vw);
             padding: 26px 22px;
             background: var(--card);
             backdrop-filter: blur(10px);
@@ -67,8 +67,8 @@
 
         .button-zone {
             position: relative;
-            width: min(520px, 92%);
-            height: 150px;
+            width: min(820px, 92%);
+            height: 250px;
             margin: 0 auto;
             touch-action: none;
         }
@@ -103,6 +103,10 @@
             left: 62%;
             background: #e5e7eb;
             color: #111827;
+        }
+
+        #noBtn:hover {
+            cursor: not-allowed;
         }
 
         .hint {
@@ -154,8 +158,8 @@
                     <stop offset="1" stop-color="#f2a97b" />
                 </linearGradient>
                 <linearGradient id="heart" x1="0" x2="1">
-                    <stop offset="0" stop-color="#ff4d7d" />
-                    <stop offset="1" stop-color="#ff1f68" />
+                    <stop offset="0" stop-color="#333333" />
+                    <stop offset="1" stop-color="#000000" />
                 </linearGradient>
             </defs>
 
@@ -181,7 +185,7 @@
                C198 148 194 144 190 144Z" fill="#ff7aa2" />
         </svg>
 
-        <h1>Sophie will you be my valentine?</h1>
+        <h1>Sophie will you be my Valentine on March 7th?</h1>
 
         <section class="button-zone" id="zone">
             <button id="yesBtn">Ja</button>
